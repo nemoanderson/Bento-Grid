@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      href="/fonts/dm-sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="A simple Bento Grid layout using CSS Grid"
+    />
+    <meta name="keywords" content="HTML, CSS, Grid, Bento, Layout" />
+    <meta name="author" content="Nemo Anderson" />
+    <title>Bento Grid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <main class="grid-container">
+      <!-- ************************ Cards ************************ -->
+
+      <!-- Card 1 -->
+      <div class="card card-1">
+        <p>
+          Create and schedule content
+          <span class="purple-text-italic">quicker</span>.
+        </p>
+        <picture>
+          <source
+            srcset="assets/images/illustration-create-post.webp"
+            type="image/webp"
+          />
+          <source srcset="assets/images/hero-image.jpg" type="image/jpeg">
+          <img
+            src="assets/images/hero-image.jpg"
+            alt="Create post button getting clicked illustration."
+          />
+        </picture>
+      </div>
+
+      <!-- Card 2  -->
+      <div class="card card-2">
+        <p>Social Media <span class="yellow-text">10x</span> Faster with AI</p>
+        <picture>
+          <source
+            srcset="assets/images/illustration-five-stars.webp 2x"
+            type="image/webp"
+          />
+          <source srcset="assets/images/illustration-schedule-post.jpg" type="image/jpeg">
+          <img
+            src="assets/images/illustration-schedule-post.jpg"
+            alt="5 star rating illustration."
+          />
+        </picture>
+        <p class="card-2-bottom-text">Over 4,000 5-star reviews</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card card-3">3
+        <p>Schedule to social media.</p>
+        <picture>
+          <source
+            srcset="assets/images/illustration-schedule-posts.webp"
+            type="image/webp"
+          />
+          <source srcset="assets/images/hero-image.jpg" type="image/jpeg">
+          <img
+            src="assets/images/hero-image.jpg"
+            alt="Best time to post social media illustration with graph."
+          />
+        </picture>
+         <p class="card-3-bottom-text">Optimize post timings to publish content at the right time for your audience.</p>
+      </div>
+      <div class="card card-4">4</div>
+      <div class="card card-5">5</div>
+      <div class="card card-6">6</div>
+      <div class="card card-7">7</div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("assets/fonts/dmsans.woff2") format("woff2"),
+    url("assets/fonts/dmsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+
+  --font-family-base: "DM Sans", Helvetica, Arial, sans-serif;
+  --font-family-title: var(--font-family-base);
+
+  --font-size-base: 1rem;
+
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+  --font-size-xxs: 0.625rem;
+  --font-size-xxxs: 0.5rem;
+
+  --font-size-lg: 1.25rem;
+  --font-size-xxl: 1.5rem;
+  --font-size-xxxl: 2rem;
+  --font-size-xxxxl: 3rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+h1 {
+  font-weight: 500;
+  font-style: bold;
+  font-size: 2em;
+}
+h2 {
+  font-weight: 500;
+  font-style: bold;
+  font-size: 1.5em;
+}
+h3 {
+  font-family: "MyFont";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+}
+h4 {
+  font-family: "MyFont";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+h5 {
+  font-family: "MyFont";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8em;
+}
+h6 {
+  font-family: "MyFont";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.6em;
+}
+p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+svg {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 130px;
+  gap: 30px;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  border-radius: 9px;
+}
+.card-1 {
+  background-color: var(--yellow-100);
+  grid-column: span 1;
+  grid-row: span 3;
+  padding: 20px;
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+  padding: 70px 20px;
+}
+.card-1 p {
+  padding: 20px 0;
+}
+.card-2 {
+  background-color: var(--purple-500);
+  grid-column: span 2;
+  grid-row: span 2;
+  padding: 20px;
+  font-size: var(--font-size-xxxxl);
+  font-weight: 500;
+  font-style: bolder;
+  text-align: center;
+  color: var(--white);
+  padding-top: 60px;
+}
+.card-2-bottom-text {
+  font-size: var(--font-size-sm);
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.card-3 {
+  background-color: var(--purple-100);
+  grid-column: span 1;
+  grid-row: span 4;
+}
+.card-4 {
+  background-color: var(--yellow-500);
+  grid-column: 1 / 1;
+
+  grid-row: 4 / 7;
+}
+.card-5 {
+  background-color: var(--white);
+  grid-column: span 1;
+  grid-row: span 4;
+}
+.card-6 {
+  background-color: var(--yellow-500);
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.card-7 {
+  background-color: var(--purple-500);
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.purple-text-italic {
+  color: var(--purple-500);
+  font-style: italic;
+}
+.yellow-text {
+  color: var(--yellow-500);
+}
