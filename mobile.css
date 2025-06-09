@@ -1,0 +1,221 @@
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/dm-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* dm-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/dm-sans-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+
+  --font-family-base: "DM Sans", Helvetica, Arial, sans-serif;
+  --font-family-title: var(--font-family-base);
+
+  --font-size-base: 1rem;
+
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+  --font-size-xxs: 0.625rem;
+  --font-size-xxxs: 0.5rem;
+
+  --font-size-lg: 1.25rem;
+  --font-size-xxl: 1.5rem;
+  --font-size-xxxl: 2rem;
+  --font-size-xxxxl: 2.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adds a subtle shadow */
+  border-radius: 9px;
+}
+
+@media screen and (min-width: 1220px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .card-1 {
+    grid-area: 1/2 /3/4;
+    /* grid-template-columns: 100px 100px; */
+    font-size: var(--font-size-xxxl);
+    font-weight: 500;
+    font-style: normal;
+    padding: 70px 20px;
+  }
+
+  .card-4 {
+    grid-area: 4/4 / 1/4;
+    /* grid-template-columns: 100px 100px; */
+  }
+  .card-5 {
+    grid-area: 4/3 / 4/5;
+  }
+
+  .card-7 {
+    /* grid-template-columns: 3fr 1fr 100px; */
+    grid-area: 1/2 / 4/1;
+  }
+  .card-8 {
+    grid-area: 4/2 / 4/1;
+  }
+}
+.card-1 {
+  background-color: var(--purple-500);
+  color: var(--white);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-1-title {
+  font-size: var(--font-size-xxxxl);
+  margin-bottom: 15px;
+  text-align: center;
+}
+.card-1 img {
+  margin-bottom: 10px;
+}
+.card-1-bottom-text {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.card-2 {
+  font-size: var(--font-size-xxl);
+  box-shadow: none;
+}
+.card-2-title {
+  font-size: var(--font-size-lg);
+  margin: 15px;
+}
+.card-2 img {
+  padding: 0 15px;
+}
+.card-3 {
+  background-color: var(--yellow-500);
+  padding: 26px 26px 0 15px;
+  font-size: var(--font-size-xxl);
+}
+.card-3-title {
+  padding-bottom: 15px;
+}
+.card-3 img {
+  padding-right: 60px;
+  padding-bottom: 0;
+}
+.card-4 {
+  background-color: var(--purple-100);
+  padding: 15px;
+  font-size: var(--font-size-lg);
+}
+.card-4-title {
+  padding: 16px;
+}
+.card-4-bottom-text {
+  font-size: var(--font-size-base);
+  padding: 16px;
+}
+
+.card-5 {
+  background-color: var(--purple-500);
+  padding: 26px;
+  color: var(--white);
+  font-size: var(--font-size-xxxl);
+}
+.card-5-text {
+  padding: 20px 0;
+}
+
+.card-6 {
+  padding: 15px;
+  box-shadow: none;
+}
+.card-6-percentage {
+  font-size: var(--font-size-xxxxl);
+  padding: 80px 0 0 0;
+}
+.card-6 img {
+  width: 60%;
+}
+.card-6 p,
+img {
+  padding: 15px;
+}
+
+.card-7 {
+  background: var(--yellow-100);
+  padding: 20px;
+  font-size: var(--font-size-xxl);
+}
+.card p {
+  padding-left: 15px;
+}
+.card-7 img {
+  width: 70%;
+  padding: 15px 0;
+}
+
+.card-8 {
+  background-color: var(--yellow-500);
+  padding: 15px;
+  font-size: var(--font-size-xxl);
+}
+.card-8 img {
+  width: 70%;
+}
+
+.purple-text-italic {
+  color: var(--purple-500);
+  font-style: italic;
+}
+.yellow-text {
+  color: var(--yellow-500);
+}
+.centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
