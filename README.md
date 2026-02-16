@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop screeshot of project Bento](./assets/images/Screenshot_2026-02-15_at_15-36-50_Bento%20Grid.png)
+![Desktop screeshot of project Bento](./assets/images/Screenshot_2026-02-15_at_15-36-50_Bento_Grid.png)
 ![Mobile screenshot of project Bento](/assets/images/Mobile_Screenshot_2026-02-15_at_16-36-30_Bento_Grid.png)
 ### Links
 
