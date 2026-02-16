@@ -1,6 +1,6 @@
 # Frontend Mentor - Bento grid solution
 
-![Screenshot of project](./assets/images/Screenshot_2026-02-15_at_15-36-50_Bento%20Grid.png) 
+![Screenshot of project](./assets/images/Screenshot_2026-02-15_at_15-36-50_Bento_Grid.png) 
 
 This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
