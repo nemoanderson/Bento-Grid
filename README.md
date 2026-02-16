@@ -64,16 +64,14 @@ Picture tag.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+#### Issues with Sync to GitHub
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+What is happening is creating several version of the same project instead of fixing bugs. This has made create more problems when coming back to refactor code. Lesson to be learn. To fix this I'm archiving previous versions and cloning the Repository from GitHub. I've been editing in GitHub but this seems it will also cause issue so, editing in my code editor is so much better. 
 
-### Useful resources
+#### Improve code
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+We have to start with Google font error in Lighthouse under performance. Error is Render-blocking requests; When search error, I learn that it's when CSS and JavaScript files—loaded in the <head> of a webpage that prevent the browser from rendering content until they are fully downloaded, parsed, and executed.  This delays key performance metrics like First Contentful Paint (FCP) and Largest Contentful Paint (LCP), negatively impacting user experience and SEO. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 
 ## Acknowledgments
