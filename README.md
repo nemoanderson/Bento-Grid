@@ -31,7 +31,7 @@ Users should be able to:
 ![Mobile screenshot of project Bento](/assets/images/Mobile_Screenshot_2026-02-15_at_16-36-30_Bento_Grid.png)
 ### Links
 
-- Solution URL: [Nemo Anderson - Frontend Mentor Solution Page](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
+- Solution URL: [Nemo Anderson - Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/bento-grid-RMydElrlOj)
 - Live Site URL: [GitHub Pages - Bento](https://nemoanderson.github.io/Bento-Grid/)
 
 ## My process
